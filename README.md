@@ -1,4 +1,4 @@
-# conda_env_tutorial
+# Managing Environments in Anaconda
 Tutorial for managing conda environments
 
 
