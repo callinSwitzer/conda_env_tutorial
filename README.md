@@ -22,6 +22,10 @@ conda create --name myenv
   ```
   python -m ipykernel install --user --name myenv
   ```
+>check to see if the kernel has been installed
+```
+jupyter kernelspec list
+```
   
 >deactivate environment 
   ```
