@@ -63,24 +63,25 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 
 
 2. Use the package ```ipykernel``` to install kernel, so you can use that environment in jupyter notebook
->Activate your new environment
+*Activate your new environment
     ```
     source activate myenv #remove "source" for windows
     ```
->install kernelspec for this user
+
+*install kernelspec for this user
     ```
     python -m ipykernel install --user --name myenv
     ```
->check to see if the kernel has been installed
+
+*check to see if the kernel has been installed
     ```
     jupyter kernelspec list
     ```
-
->deactivate environment 
+*deactivate environment 
     ```
     source deactivate #remove "source" for windows
     ```
->run jupyter lab
+*run jupyter lab
     ```
     jupyter lab
     ```
