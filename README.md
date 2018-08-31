@@ -135,7 +135,7 @@ conda env export > environment2.yml
 2. Edit this exported file (by hand) to make it simpler
 
 
-## Part 4: Removing unwanted environments and kernels
+## Part 5: Removing unwanted environments and kernels
 1. List all conda environments
 ```
 conda env list
