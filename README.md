@@ -111,7 +111,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 
 1. Download the file ```environment.yml``` <https://github.com/callinSwitzer/conda_env_tutorial/blob/master/environment.yml>
 2. In terminal (or anaconda prompt), navigate to the folder where you saved this file. 
-3. Create a new environment, using this file (may take a ~2 min to finish)
+3. Create a new environment, using this file (may take ~2 min to finish)
     ```
     conda env create -f environment.yml
     ```
