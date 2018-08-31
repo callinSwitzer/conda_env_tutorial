@@ -4,21 +4,70 @@ Tutorial for managing conda environments
 
 https://conda.io/docs/user-guide/tasks/manage-environments.html
 
+## Part 0: Setup
+
 1. Make sure Anaconda is installed: https://www.anaconda.com/download/
 
+## Part 1: Installing a new envoironment
 
-2. Create new environment:
+1. Create new environment, called "env1" with python 2.7 the package, ipython:
 
-```
-conda create --name myenv python
-```
+    ```
+    conda create --name env1 python=2.7 ipython
+    ```
+2. Activate your new environment
+    ```
+    source activate env1
+    ```
+3. Use ipython to see if it worked
 
-3. install kernel, so you can use that environment in jupyter notebook
+    ```
+    ipython
+
+    import sys
+    sys.executable
+    sys.version
+    ```
+    You should see something similar to this: 
+    ```
+    (env1) D-10-19-251-209:~ cswitzer$ ipython
+    Python 2.7.15 |Anaconda, Inc.| (default, May  1 2018, 18:37:05) 
+    Type "copyright", "credits" or "license" for more information.
+    .
+    .
+    .
+
+    In [1]: import sys
+
+    In [2]: sys.executable
+    Out[2]: '/Users/cswitzer/anaconda/envs/env1/bin/python'
+
+    In [3]: sys.version
+    Out[3]: '2.7.15 |Anaconda, Inc.| (default, May  1 2018, 18:37:05) 
+    [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)]'
+
+    ```
+
+* Create new environment, called "env2" with python 3.7 and the package ipython
+* Activate that environment. 
+* Run ipython, and check to see if you're using the python version from your new environment
+
+
+## Part 2: Installing a jupyter kernel, so you can select this environment in jupyter notebook
+1. Install ```ipykernel``` in your new environment
+
+    ```
+    source activate env1
+    conda install ipykernel
+    ```
+
+
+2. Use the package ```ipykernel``` to install kernel, so you can use that environment in jupyter notebook
 >Activate your new environment
   ```
   source activate myenv #remove "source" for windows
   ```
->install kernelspec for all users
+>install kernelspec for this user
   ```
   python -m ipykernel install --user --name myenv
   ```
@@ -29,9 +78,11 @@ jupyter kernelspec list
   
 >deactivate environment 
   ```
-  source deactivate myenv #remove "source" for windows
+  source deactivate #remove "source" for windows
   ```
 >run jupyter lab
   ```
   jupyter lab
   ```
+  
+  ![alt text](https://github.com/callinSwitzer/conda_env_tutorial/blob/master/jupyScreenshot.png "Jupyter image")
