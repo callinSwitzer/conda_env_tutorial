@@ -48,6 +48,12 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
     [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)]'
 
     ```
+    
+4. Deactivate the environment
+    ```
+    source deactivate
+    ```
+   
 
 * Create new environment, called "env2" with python 3.7 and the package ipython
 * Activate that environment. 
