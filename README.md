@@ -104,3 +104,17 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 ## Part 3: Using an environment.yml file
 
 1. Download the file ```environment.yml``` <https://github.com/callinSwitzer/conda_env_tutorial/blob/master/environment.yml>
+2. In terminal (or anaconda prompt), navigate to the folder where you saved this file. 
+3. Create a new environment, using this file (may take a wile to download)
+    ```
+    conda env create -f environment.yml
+    ```
+4. List environments
+    ```
+    conda env list
+    ```
+5. Install kernel
+    ```
+    source activate machLearn_env
+    ```
+* Check to see if this kernel is available in Jupyter lab
