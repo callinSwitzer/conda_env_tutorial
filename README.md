@@ -94,3 +94,13 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
     * use ```sys``` to check the environment and python version
   
   <img src="https://github.com/callinSwitzer/conda_env_tutorial/blob/master/jupyScreenshot.png" width="500">
+
+
+
+* install a kernel for your new environment ```env2```
+* Run ```jupyter lab```, and check to see if the new environment is available
+
+
+## Part 3: Using an environment.yml file
+
+1. Download the file ```environment.yml``` <https://github.com/callinSwitzer/conda_env_tutorial/blob/master/environment.yml>
