@@ -74,7 +74,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
     * install kernelspec for this user
 
         ```
-        python -m ipykernel install --user --name myenv
+        python -m ipykernel install --user --name env1
         ```
 
     * check to see if the kernel has been installed
