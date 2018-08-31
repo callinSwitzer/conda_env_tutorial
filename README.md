@@ -93,6 +93,9 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
         ```
         jupyter lab
         ```
+    
+    * Start a new jupyter noetbook
+    
     * check to see if you can select your new environment (Kernel -> change kernel -> env1)
     * use ```sys``` to check the environment and python version
   
