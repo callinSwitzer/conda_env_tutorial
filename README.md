@@ -149,6 +149,13 @@ jupyter kernelspec list
 4. To remove a kernel, delete it's folder
 
 
+*** OPTIONAL: Remove unused packages and caches
+```
+conda clean --all --dry-run  # do a dry run first, without deleting anything
+```
+```
+conda clean --all # actuall delete the things
+```
 
 
 
