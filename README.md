@@ -85,4 +85,4 @@ jupyter kernelspec list
   jupyter lab
   ```
   
-  ![alt text](https://github.com/callinSwitzer/conda_env_tutorial/blob/master/jupyScreenshot.png "Jupyter image")
+  ![alt text](https://github.com/callinSwitzer/conda_env_tutorial/blob/master/jupyScreenshot.png "Jupyter image" | width=100)
