@@ -27,6 +27,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
     import sys
     sys.executable
     sys.version
+    quit
     ```
     You should see something similar to this: 
     ```
