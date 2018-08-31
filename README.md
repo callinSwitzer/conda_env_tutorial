@@ -7,10 +7,10 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 1. Make sure Anaconda is installed: https://www.anaconda.com/download/
 
 
-2. Create new environment (with same python version as base):
+2. Create new environment:
 
 ```
-conda create --name myenv 
+conda create --name myenv python
 ```
 
 3. install kernel, so you can use that environment in jupyter notebook
