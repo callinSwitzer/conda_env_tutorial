@@ -120,6 +120,14 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
     ```
 * Check to see if this kernel is available in Jupyter lab
 
+## Part 4: Making an environment.yml file
+1. Create an exact environment.yml file (note that this will overwrite any environment.yml file in your current directory)
+```
+source activate env1
+conda env export > environment2.yml
+```
+2. Edit this exported file (by hand) to make it simpler
+
 
 ## Part 4: Removing unwanted environments and kernels
 1. List all conda environments
