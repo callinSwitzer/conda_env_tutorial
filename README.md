@@ -70,25 +70,25 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 
     * install kernelspec for this user
 
-    ```
-    python -m ipykernel install --user --name myenv
-    ```
+        ```
+        python -m ipykernel install --user --name myenv
+        ```
 
     * check to see if the kernel has been installed
 
-    ```
-    jupyter kernelspec list
-    ```
+        ```
+        jupyter kernelspec list
+        ```
 
     * deactivate environment 
 
-    ```
-    source deactivate #remove "source" for windows
-    ```
+        ```
+        source deactivate #remove "source" for windows
+        ```
     * run jupyter lab
 
-```
-jupyter lab
-```
+        ```
+        jupyter lab
+        ```
   
   <img src="https://github.com/callinSwitzer/conda_env_tutorial/blob/master/jupyScreenshot.png" width="500">
