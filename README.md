@@ -17,7 +17,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
     ```
 2. Activate your new environment
     ```
-    source activate env1
+    source activate env1 # remove source for windows
     ```
 3. Use ipython to see if it worked
 
@@ -90,5 +90,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
         ```
         jupyter lab
         ```
+    * check to see if you can select your new environment (Kernel -> change kernel -> env1)
+    * use ```sys``` to check the environment and python version
   
   <img src="https://github.com/callinSwitzer/conda_env_tutorial/blob/master/jupyScreenshot.png" width="500">
