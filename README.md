@@ -8,7 +8,7 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 
 1. Make sure Anaconda is installed: https://www.anaconda.com/download/
 
-## Part 1: Installing a new envoironment
+## Part 1: Installing a new environment
 
 1. Create new environment, called "env1" with python 2.7 the package, ipython:
 
@@ -116,5 +116,25 @@ https://conda.io/docs/user-guide/tasks/manage-environments.html
 5. Install kernel
     ```
     source activate machLearn_env
+    python -m ipykernel install --user --name machLearn_env
     ```
 * Check to see if this kernel is available in Jupyter lab
+
+
+## Part 4: Removing unwanted environments and kernels
+1. List all conda environments
+```
+conda env list
+```
+2. To remove an environment, delete it's folder
+
+3. List kernels
+```
+jupyter kernelspec list
+```
+4. To remove a kernel, delete it's folder
+
+
+
+
+
